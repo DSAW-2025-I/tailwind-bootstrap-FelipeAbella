@@ -29,7 +29,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.nav-button {
+.nav_button {
     display: inline-block;
     text-align: center;
     background-color: hsl(277, 64%, 61%);
@@ -41,7 +41,7 @@ nav a:hover {
     border-radius: 5px;
 }
 
-.nav-button:hover {
+.nav_button:hover {
     background-color: hsl(277, 80%, 70%);
 }
 
@@ -55,21 +55,21 @@ nav a:hover {
     overflow: hidden;
 }
 
-.card-content {
+.card_content {
     padding: 40px;
     flex: 1;
 }
 
-.card-content h1 {
+.card_content h1 {
     font-size: 36px;
     font-family: 'Inter', sans-serif;
 }
 
-.card-content .highlight {
+.card_content .highlight {
     color: hsl(277, 64%, 61%);
 }
 
-.card-content p {
+.card_content p {
     font-size: 17px;
     color: hsla(0, 0%, 100%, 0.75);
     line-height: 1.6;
@@ -102,18 +102,18 @@ nav a:hover {
     margin: 0;
 }
 
-.card-image {
+.card_image {
     flex: 1;
     position: relative;
 }
 
-.card-image img {
+.card_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.card-image::after {
+.card_image::after {
     content: "";
     position: absolute;
     top: 0;
@@ -137,12 +137,12 @@ nav a:hover {
         text-align: center;
     }
 
-    .card-content {
+    .card_content {
         padding: 15px;
         align-items: center;
     }
 
-    .card-content h1 {
+    .card_content h1 {
         font-size: 18px;
     }
 
@@ -160,18 +160,18 @@ nav a:hover {
         font-size: 13px;
     }
 
-    .card-image {
+    .card_image {
         max-height: 250px;
     }
 }
 
 @media (max-width: 768px) {
-    .card-content {
+    .card_content {
         padding: 25px;
         flex: 1;
     }
 
-    .card-image img {
+    .card_image img {
         width: 100%;
         height: 100%;
     }
@@ -180,7 +180,7 @@ nav a:hover {
         gap: 15px;
     }
 
-    .card-content h1 {
+    .card_content h1 {
         font-size: 27px;
     }
 }

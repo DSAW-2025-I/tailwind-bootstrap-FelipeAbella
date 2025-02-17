@@ -33,7 +33,7 @@
       align-items: center;
     }
 
-    .card-custom {
+    .card_custom {
       display: flex;
       flex-direction: row;
       background-color: hsl(244, 38%, 16%);
@@ -84,13 +84,13 @@
       font-weight: 400;
     }
 
-    .card-img-overlay {
+    .card_img_overlay {
       background-color: hsl(277, 64%, 61%);
       mix-blend-mode: multiply;
       height: 100%;
     }
 
-    .col-md-6 img {
+    .col_md_6 img {
       object-fit: cover;
       width: 100%;
       height: 100%;
@@ -98,7 +98,7 @@
 
     @media (max-width: 768px) {
 
-      .card-content {
+      .card_content {
         padding: 25px;
         flex: 1;
       }
@@ -114,13 +114,13 @@
         height: auto;
       }
 
-      .card-custom {
+      .card_custom {
         flex-direction: column;
         max-width: 95%;
         text-align: center;
       }
 
-      .card-content {
+      .card_content {
         padding: 10px;
         align-items: center;
       }
@@ -147,12 +147,12 @@
 </head>
 <body>
   <main class="container">
-    <div class="row card-custom text-center text-md-start overflow-hidden">
-      <div class="col-md-6 order-md-2 p-0 position-relative">
+    <div class="row card_custom text-center text-md-start overflow-hidden">
+      <div class="col_md_6 order-md-2 p-0 position-relative">
         <img src="./images/image-header-desktop.jpg" alt="Team working" class="img-fluid w-100">
-        <div class="position-absolute top-0 start-0 w-100 h-100 card-img-overlay"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 card_img_overlay"></div>
       </div>
-      <div class="col-md-6 p-5 d-flex flex-column justify-content-center card-content">
+      <div class="col_md_6 p-5 d-flex flex-column justify-content-center card_content">
         <h1>Get <span class="highlight">insights</span> that help your business grow.</h1>
         <p class="text-white-50">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
         <div class="row text-center text-md-start stats">
